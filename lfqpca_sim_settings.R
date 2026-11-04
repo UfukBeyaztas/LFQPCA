@@ -1,0 +1,31 @@
+lfqpca_sim_settings <- function() {
+  list(
+    D = 61,
+    K_subject = 2,
+    K_visit = 2,
+    mean_time_degree = 2,
+    spline_df = 10,
+    spline_degree = 3,
+    periodic = FALSE,
+    time_range = c(-1.2, 1.2),
+    unbalanced_visits = 4:9,
+    base_scale_intercept = 0.75,
+    loading_scale_intercept = 3,
+    min_scale = 0.2,
+    reference_tau = 0.5,
+    calibration_tau = 0.9,
+    score_correlation = 0.8,
+    visit_signal = 2,
+    max_abs_time = 2.2,
+    bound_visits = 10,
+    loading_norms = list(phi0 = c(0.08, 0.06), phi1 = c(0.06, 0.05),
+                         psi = c(0.07, 0.05)),
+    curvature = 1.13,
+    response_tau_star = 0.9,
+    iid_seed_offset = 5e6,
+    reserve_seed_offset = 7e6,
+    reserve_seeds = 20,
+    seed_experiment1 = 20260924,
+    seed_experiment2 = 20260922
+  )
+}
