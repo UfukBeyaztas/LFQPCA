@@ -34,8 +34,6 @@ remotes::install_github("UfukBeyaztas/LFQPCA")
 library(LFQPCA)
 ```
 
-The package declares R version 4.0.0 or later. Its dependencies, including `quantreg` and `pbs`, are installed automatically when compatible versions are available for your R installation. To update the package later, run `remotes::install_github("UfukBeyaztas/LFQPCA")` again.
-
 ## Preparing the data
 
 Each row corresponds to one subject at one visit. Keep the rows aligned across all inputs.
