@@ -1,0 +1,22 @@
+Package: LFQPCA
+Type: Package
+Title: Longitudinal Functional Quantile Principal Component Analysis
+Version: 0.1.0
+Authors@R: person("Ufuk", "Beyaztas", email = "ufuk.beyaztas@marmara.edu.tr",
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = "0000-0002-5208-4950"))
+Description: Longitudinal functional quantile principal component analysis
+    (LFQPCA) decomposes the conditional quantiles of curves recorded at
+    repeated visits into a population surface, persistent subject
+    trajectories with functional intercepts and slopes in time, and transient
+    visit deviations that carry no trend within a subject. Longitudinal
+    functional quantile principal component regression (LFQPCR) relates the
+    quantiles of a scalar response to the two fitted components through
+    separate coefficient functions. Estimation minimizes a subject-balanced
+    check loss over spline bases. The package includes prediction for new
+    subjects, cross-validation, a subject bootstrap and the data-generating
+    designs of the simulation study in the accompanying paper.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: graphics, pbs, quantreg, splines, stats, utils
