@@ -218,18 +218,3 @@ lfqpca_sim_designs()
 ```
 
 The simulation functions accept `replication` and `seed` arguments. Their defaults reproduce the first replication; changing `replication` generates another data set. The manual describes the generating models and the settings used in each design.
-
-## Documentation and citation
-
-- [PDF package manual](LFQPCA_0.1.0.pdf)
-- Package overview: `help("LFQPCA-package", package = "LFQPCA")`
-- Function documentation: `?lfqpca` and `?lfqpcr`
-
-
-## Contact and license
-
-Maintained by Ufuk Beyaztas: [ufuk.beyaztas@marmara.edu.tr](mailto:ufuk.beyaztas@marmara.edu.tr).
-
-Please report bugs or questions through [GitHub Issues](https://github.com/UfukBeyaztas/LFQPCA/issues).
-
-The package is licensed under GPL-3.
